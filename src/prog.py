@@ -25,3 +25,4 @@ if __name__ == "__main__":
     print "test"
     header()
     # testing ne commit 123
+    assert False
