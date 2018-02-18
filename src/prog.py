@@ -13,6 +13,14 @@
 # along with this program.  If not, see <http://www.gnu.org/licenses/>.
 #
 
+def header():
+    """
+    display header
+    """
+    _divisor = "=" * 20 
+    print "%s \n %s \n%s" % (_divisor, "INFO", _divisor)
+    
 
 if __name__ == "__main__":
     print "test"
+    header()
